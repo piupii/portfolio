@@ -1,7 +1,19 @@
+body {
+background:#E9967A url(images/kuuset2.jpg) repeat-x;
+
+
+}
+#wrap {
+  width:700px;
+  margin:0px auto 15px auto;
+  font-family:Verdana, Arial, Helvetica, sans-sefif;
+  font-size:12px;
+  color: #6B8E23;
+}
 /* Header */
 #header {
   height:242px;
   margin:0px auto 15px auto;
   font-family:Verdana, Arial, Helvetica, sans-sefif;
-  color: #E9967A;
+  color: #8B0000;
   }
