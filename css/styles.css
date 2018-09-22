@@ -50,3 +50,20 @@ background:#E9967A url(images/kuuset2.jpg) repeat-x;
   }
   
   
+/*Content*/
+#content {
+        background-color: #ffffff;
+}
+#mainpage {
+        width:700px;
+        float:left;
+        padding: 5px 5px 5px 0px;
+        height:auto;
+  }
+  #mainpage p {
+          line-height:22px;
+          
+  
+  
+  
+  
