@@ -13,9 +13,8 @@ background:#E9967A url(images/kuuset2.jpg) repeat-x;
 /* Header */
 #header {
   height:242px;
-  margin:0px auto 15px auto;
-  font-family:Verdana, Arial, Helvetica, sans-sefif;
-  color: #8B0000;
+  background:url(images/kuuset2.jpg) no-repeat left top;
+  clear: both;
   }
 
 #topbar {
