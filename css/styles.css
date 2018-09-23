@@ -18,6 +18,10 @@ background:#E9967A url(images/kuuset2.jpg) repeat-x;
   color: #8B0000;
   }
 
+#topbar {
+height:78px;
+}
+
 /* Header Menu*/
 #topmenu {
         display:block;
