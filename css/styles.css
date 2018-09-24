@@ -1,113 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-background:#E9967A url(images/kuuset2.jpg) repeat-x;
-
-
-}
-#wrap {
-  width:700px;
-  margin:0px auto 15px auto;
-  font-family:Verdana, Arial, Helvetica, sans-sefif;
-  font-size:12px;
-  color: #6B8E23;
-}
-/* Header */
-#header {
-  height:242px;
-  background:url(images/kuuset2.jpg) no-repeat left top;
-  clear: both;
-  }
-
-#topbar {
-height:78px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header Menu*/
-#topmenu {
-        display:block;
-        list-style:none;
-        padding: 0px 0px 0px 278px;
-        float: left;
-        width: 415px;
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
 }
-#topmenu li {
-        display:inline;
-#topmenu a {
-        display:block;
-        float:left;
-        height:28px;
-        margin:0px 0px 0px 0px;
-        text-decoration:none;
-        padding: 9px 15px 0px 15px;
-        text-align:center;
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
 }
-#topmenu a, #topmenu a:visited, #topmenu a:active {
-        color:#EEEEEE;
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
-#topmenu a:hover{
-        color:#ffffff;
-  background-color: #808000;
-  }
-  #topmenu .active a, #topmenu .active a:visited, #topmenu .active a=active{
-          color:#ffffff;
-          background-color: ##66CDAA;
-  }
-  
-  
-/*Content*/
-#content {
-        background-color: #ffffff;
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
 }
-#mainpage {
-        width:700px;
-        float:left;
-        padding: 5px 5px 5px 0px;
-        height:auto;
-  }
-  #mainpage p {
-          line-height:22px;
-          margin:10px 0px 22px 0px;
-          text-align: justify;
-  }
-  mainpage blockquote {
-          background:#efefef;
-          display:block;
-          margin:5px;
-          font:Georgia, "Times New Roman", Times, serif;
-          font-style:italic;
-  }
-  h1, h2, h3, h4, h5 {
-          color:#B32C0E;
-          font-weight:bold;
-          font-family: Arial, Helvetica, sans-serif;
-  }
-  #mainpage h1 {
-          font-size:24px;
-          color: #F2F7F3;
-  }
-  #mainpage h2 {
-          font-size:18px;
-          padding-top:20px;
-          padding-bottom:5px;
-          border-bottom: 1px solid #B52E10;
-  }
-  #mainpage h3 {
-          font-size:20px;}
-  #mainpage h4 {
-          font-size:18px;}
-  #mainpage h5 {
-          font-size:16px}
-    
-  #footer {
-    margin:0 auto;
-    width:685px;
-    height:20px;
-    padding:10px;
-    color:#ffffff;
-    text-align:center;
-    background:#333333;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size:11px;
-    clear:both;
-  }
-  
-  
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
