@@ -46,10 +46,10 @@ th, td {
     text-align: left;
 }
 table#t01 tr:nth-child(even) {
-    background-color: #eee;
+    background-color: #FFE4E1;
 }
 table#t01 tr:nth-child(odd) {
-   background-color: #fff;
+   background-color: #FFF5EE;
 }
 table#t01 th {
     background-color: #000000;
