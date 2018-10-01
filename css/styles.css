@@ -38,7 +38,7 @@ table {
     width:100%;
 }
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid #000000;
     border-collapse: collapse;
 }
 th, td {
@@ -52,8 +52,8 @@ table#t01 tr:nth-child(odd) {
    background-color: #fff;
 }
 table#t01 th {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 footer {
