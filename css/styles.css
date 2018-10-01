@@ -62,8 +62,6 @@ footer {
     text-align: center;
     color: #ffffff;
     position: relative;
-    width: 100%;
-    clear: both;
 }
 
 @media (max-width: 600px) {
