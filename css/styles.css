@@ -16,10 +16,10 @@ header {
 }
 
 audio {
-		width="300"
-		height="90"
-		loop="true"
-		autostart="false">
+	width="300"
+	height="90"
+	loop="true"
+	autostart="false">
 }
 
 nav {
@@ -65,10 +65,12 @@ table#t01 th {
 
 footer {
     background: #FFE4E1 url("https://github.com/piupii/portfolio/blob/master/images/kuuset2.jpg?raw=true") repeat-x;
-    padding: 10px;
+    <!--padding: 10px;-->
     text-align: center;
     color: #ffffff;
-    position: relative;
+    position: relative; 
+    width: 100%;
+    clear: both;
 }
 
 @media (max-width: 600px) {
