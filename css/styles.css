@@ -9,17 +9,17 @@ body {
 
 header {
     background: #FFE4E1 url("https://github.com/piupii/portfolio/blob/master/images/kuuset2.jpg?raw=true") repeat-x;
-    padding: 30px;
+    padding: 0px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: #ffffff;
 }
 
 nav {
     float: left;
     width: 20%;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 0px;
 }
 
 nav ul {
@@ -58,7 +58,11 @@ table#t01 th {
 
 footer {
     background: #FFE4E1 url("https://github.com/piupii/portfolio/blob/master/images/kuuset2.jpg?raw=true") repeat-x;
-    padding: 10px;
+    padding: 0px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     color: #ffffff;
 }
