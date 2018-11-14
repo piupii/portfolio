@@ -4,7 +4,27 @@
 <title>(ಠ ∩ಠ)</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script>
+function validateForm()
+{
+if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+{
+alert("Name must be filled out");
+return false;
+}
+if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+{
+alert("Phone must be filled out");
+return false;
+}
+if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+{
+alert("Email must be filled out");
+return false;
+}
+return true;
+}
+</script>
 </head>
 <body>
 
@@ -96,6 +116,7 @@
     
   
 <h3 id="form">Now then, a little question for you (人◕ω◕)</h3>
+<form name="myForm" onsubmit="return validateForm()" >
   <fieldset>
     <legend>What are your favorite games?:</legend><br>
     First:<br>
