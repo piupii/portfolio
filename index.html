@@ -7,19 +7,18 @@
     <script>
 function validateForm()
 {
-if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+if (document.forms["myForm"]["game1"].value==null || document.forms["myForm"]["game1"].value=="")
 {
-alert("Name must be filled out");
+alert("Must be filled out");
 return false;
 }
-if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
-{
-alert("Phone must be filled out");
+if (document.forms["myForm"]["game2"].value==null || document.forms["myForm"]["game2"].value=="")
+alert("Must be filled out");
 return false;
 }
-if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+if (document.forms["myForm"]["game3"].value==null || document.forms["myForm"]["game3"].value=="")
 {
-alert("Email must be filled out");
+alert("Must be filled out");
 return false;
 }
 return true;
