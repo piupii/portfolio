@@ -29,23 +29,7 @@ return false;
 return true;
 }
 </script>
-	
-	
-	
-	
-<style>
-  #map {
-    height: 100%;
-  }
-  html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-</style>
-	
-	
-	
+
 	
 
 </head>
@@ -222,33 +206,22 @@ function showError(error) {
     <div id="map"></div>
     <script>
       function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
-
-        // Create a map object and specify the DOM element
-        // for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 4
-        });
-
-        // Create a marker and set its position.
-        var marker = new google.maps.Marker({
+        var location = {lat: -25.363, lng: 131.044};
+	var map = new google.maps.Map(document.getElementById("map"), {
+        center: location,
+        zoom: 4
+      });
+      var marker = new google.maps.Marker({
           map: map,
-          position: myLatLng,
-          title: 'Hello World!'
+          position: location
         });
-      }
+      }   
+    </script>    
+    
+<script>async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIuhC0FkoFn0gyNbNyDGzZViZRKWA8XhE&callback=initMap" </script>  
+	  
+	  
 
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4_3jgNPmULOG_XMRJV1uKo7F7YuxIDm0&callback=initMap"
-        async defer></script>
-	  
-	  
-	  
-	  
-	  
-	 
-	  
 	  
 	  
     
