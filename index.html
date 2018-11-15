@@ -11,17 +11,17 @@
 	  <script>
 function validateForm()
 {
-if (document.forms["myForm"]["name"].value==null || document.forms["myForm"]["name"].value=="")
+if (document.forms["myForm"]["gamea"].value==null || document.forms["myForm"]["gamea"].value=="")
 {
 alert("All fields must be filled out.");
 return false;
 }
-if (document.forms["myForm"]["phone"].value==null || document.forms["myForm"]["phone"].value=="")
+if (document.forms["myForm"]["gameb"].value==null || document.forms["myForm"]["gameb"].value=="")
 {
 alert("All fields must be filled out.");
 return false;
 }
-if (document.forms["myForm"]["email"].value==null || document.forms["myForm"]["email"].value=="")
+if (document.forms["myForm"]["gamec"].value==null || document.forms["myForm"]["gamec"].value=="")
 {
 alert("All fields must be filled out.");
 return false;
@@ -132,13 +132,13 @@ return true;
 <fieldset>
     <legend>What are your favorite games?:</legend><br>
     First game:<br>
-    <input type="text" name="game1" /><br/>
+    <input type="text" name="gamea" /><br/>
     <br><br>
     Second game:<br>
-    <input type="text" name="game2" /><br/>
+    <input type="text" name="gameb" /><br/>
     <br><br>
     Third game:<br>
-    <input type="text" name="game3" /><br/>
+    <input type="text" name="gamec" /><br/>
     <br><br><br>
     <input type="submit" value="Submit" />
 </fieldset>
