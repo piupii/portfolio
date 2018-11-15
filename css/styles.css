@@ -57,6 +57,17 @@ table#t01 th {
     color: #ffffff;
 }
 
+
+
+  map {
+    height: 500px;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
 footer {
     background: #FFE4E1 url("https://github.com/piupii/portfolio/blob/master/images/kuuset2.jpg?raw=true") repeat-x;
     text-align: center;
