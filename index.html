@@ -109,6 +109,9 @@ function drop(ev) {
       <li><a href="#P4">Scenery</a></li>
       <li><a href="#table">Table</a></li>
       <li><a href="#form">Question</a></li>
+      <li><a href="#fl">For Laughs</a></li>
+      <li><a href="#button">Where are you?</a></li>
+      <li><a href="#drag">Drag dat boi.</a></li>
     </ul>
   </nav>
   
@@ -181,7 +184,7 @@ function drop(ev) {
 	  
 	  
 	  
-<h2> for laughs </h2>
+<h2 id= "fl"> for laughs </h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pnCenP5SspA" 
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
@@ -193,7 +196,7 @@ picture-in-picture" allowfullscreen></iframe>
 	  
 
 
-<button onclick="getLocation()">Where are you?</button>
+<button onclick="getLocation()" id="button">Where are you?</button>
 
 <p id="demo"></p>
 
@@ -234,7 +237,7 @@ function showError(error) {
 	  
 	  
 
-<p>Drag dat boi.</p>
+<p id="drag">Drag dat boi.</p>
 
 <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
   <img src="images/2.png" draggable="true" ondragstart="drag(event)" id="drag1" height="100">
